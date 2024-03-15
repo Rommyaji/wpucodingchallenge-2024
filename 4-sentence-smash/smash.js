@@ -1,7 +1,5 @@
-const smash = (words) => {
+const smash = (words) => words.join(' ')
 
-    return words.join(' ')
-}
 
 
 console.log(smash(["hello", "amazing", "world"]))
